@@ -1,0 +1,43 @@
+.body{
+	background-color:#660000;
+	color:white;
+	margin: 1%;
+}
+img{
+	height:560px;
+	width:100%;
+	margin:0 auto;
+	object-fit: cover;
+	object-position: center center;
+}
+.carousel-inner {
+    margin: 2%;
+    width: .;
+}
+*{
+	margin:0;
+	padding:0;
+}
+.right{
+	width:60%;
+	display: inline-block;
+	    overflow: hidden;
+}
+label{
+	    font-size: 2vw;
+    line-height: 4vw;
+}
+label::before {
+  content: "\2022";
+  color: white;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+.de{
+		display: inline-block;
+    margin-left: 3%;
+    position: absolute;
+    margin-top: 2%;
+}

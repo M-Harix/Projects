@@ -1,0 +1,90 @@
+hr{
+	border: 1px solid red;
+}
+.black{
+	color:black;
+}
+.white{
+	color:black;
+}
+.what{
+	font-family: 'SFP', sans-serif;
+	font-weight: 400;
+    font-size: 40px;
+    line-height: 110px;
+    color: black;
+    letter-spacing: -0.05em;
+}
+.background{
+	font-size: 60px;
+	background-image:url("../images/contact.jpg");
+	background-attachment:fixed;
+	background-size:100% 100%;
+	height:8.5em;
+}
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+.waviy {
+	font-size: 60px;
+	color:white;
+	text-align:center;
+	padding-top:14%;
+}
+.waviy span {
+  font-family: 'Alfa Slab One', cursive;
+  display: inline-block;
+  text-transform: uppercase;
+  animation: waviy 1s;
+  animation-delay: calc(.1s * var(--i));
+}
+@keyframes waviy {
+  0%,40%,100% {
+    transform: translateY(0)
+  }
+  20% {
+    transform: translateY(-20px)
+  }
+}
+h2{
+	margin: 0;
+}
+.grid{
+	display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+@media screen and (max-width: 1400px)
+.first-child{
+    padding-left: 0;
+}
+.items{
+	display: flex;
+    flex-direction: column;
+    padding: 60px 60px 64px;
+    text-align: left;
+    position: relative;
+	border-right: 2px solid red;
+}
+.message-background1{
+	font-size: 60px;
+	background-image:url("../images/contact2.jpg");
+	background-size:100% auto;
+	margin-top: 20px;
+	height:8.5em;
+}
+.message-background2{
+	background-color: rgba(0,0,0,.34);
+	height: 4.5em;
+    padding: 9%
+}
+#message{
+	width: 60%;
+    color: white;
+    margin: 0 auto;
+    font-size: 37px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+/*dropbtn*/
+.dropdown-content {
+	background-color: #ffffff;
+    border: 2px solid #fd0202;
+}

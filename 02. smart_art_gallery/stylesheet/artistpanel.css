@@ -1,0 +1,18 @@
+
+.heading{
+	text-align: center;
+    background-color: black;
+    color: white;
+    position: relative;
+    top: 10%;
+}
+.heading h1{
+	text-align: center;
+    background-color: black;
+    color: white;
+    padding-top: 11px;
+    height: 70px;
+}
+.container{
+	margin-top: 7%;
+}

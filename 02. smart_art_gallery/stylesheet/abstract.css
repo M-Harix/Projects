@@ -1,0 +1,108 @@
+#title{
+	color:#521d2b;
+	font-family: 'Kanit', sans-serif;
+	font-size:70px;
+	word-spacing:10px;
+    float: left;
+	position: absolute;
+	transition:1.0s;
+    left: 24%;
+	top:20%;
+}
+#title:hover{
+	-webkit-text-stroke:3px #b10d38;
+	color:transparent;
+} 
+#abstract{
+	color:#521d2b;
+	font-size:90px;
+	font-family: 'Kanit', sans-serif;
+	position:absolute;
+	transition:1.0s;
+	left:35%;
+	top:60%;
+}
+#abstract:hover{
+	-webkit-text-stroke:3px #b10d38;
+	color:transparent;
+}
+.front{
+    height: 35em;
+    width: 100%;
+	margin-bottom:0;
+	padding-top:0px;
+}
+.w3-imagee{
+	width: 100%;
+	height: 100%;
+}
+.body{
+	background-color:#e0dddd;
+}
+.grid{
+	display: grid;
+	width:70%;
+	margin: 0 auto;
+    grid-template-columns: repeat(2, 1fr);
+}
+.grid-item{
+	display: flex;
+    flex-direction: column;
+    padding: 60px 60px 64px;
+    text-align: center;
+    position: relative;
+}
+.img:hover{
+	opacity: 0.8;
+}
+.button {
+    position: absolute;
+    left:31%;
+    top:40%;
+    text-align: center;
+    opacity: 0;
+    transition: opacity .35s ease;
+}
+.button a {
+	background-color: white;
+	color:black;
+	text-decoration:none;
+    padding: 12px 48px;
+    text-align: center;
+    font-weight:bold;
+    border: solid 2px white;
+    z-index: 1;
+}
+.button a:hover{
+	background-color: white;
+	color:black;
+	font-weight:bold;
+}
+.img-container:hover .button {
+  opacity: 1;
+}
+.vm:hover{
+	color:green;
+}
+.p{
+	padding-top:5%;
+	text-align:center;	
+}
+
+.grid{
+	display: grid;
+	width:70%;
+	margin: 0 auto;
+    grid-template-columns: repeat(2, 1fr);
+}
+.grid-item{
+	display: flex;
+    flex-direction: column;
+    padding: 60px 60px 64px;
+    text-align: center;
+    position: relative;
+}
+.pp{
+	font-size: 20px;
+    padding: 20px
+}

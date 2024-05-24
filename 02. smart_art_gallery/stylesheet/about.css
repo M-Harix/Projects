@@ -1,0 +1,100 @@
+body{
+  margin:0;
+  font-family:century gothic;
+}
+.front{
+    height: 38em;
+    width: 100%;
+	margin-bottom:0;
+	padding-top:0px;
+}
+.w3-imagee{
+	width: 100%;
+	height: 100%;
+}
+#title{
+	color:#922413;
+	font-family: 'Kanit', sans-serif;
+	font-size:70px;
+    float: left;
+	position: absolute;
+	transition:1.0s;
+    left: 24%;
+	top:20%;
+	word-spacing:10px;
+}
+#title:hover{
+	-webkit-text-stroke:3px #922413;
+	color:transparent;
+}
+#about{
+	color:#922413;	
+	font-size:90px;
+	font-family: 'Kanit', sans-serif;
+	position:absolute;
+	transition:1.0s;
+	left:40%;
+	top:60%;
+}
+#about:hover{
+	-webkit-text-stroke:3px #922413;
+	color:transparent;
+}
+#img{
+    height: 66%;
+    width: 100%;
+}
+.pimg{
+	padding-top:5%;
+	height:20%;
+}
+#im{
+	width:19%;
+	display:inline-block;
+	padding-left:0.5%;
+}
+#h3{
+    display: inline-block;
+    margin-left: 10%;
+}
+
+#p{
+	margin:0;
+	width:80%;
+	float:right;
+	line-height: 1.5;
+}
+.detail{
+	display: flex;
+	padding-left:2%;
+	padding-bottom:2%;
+}
+.des dt h3{
+	font-size: x-large;
+    padding: 10px 0px 10px 0px;
+    color: #b50e0e;
+}
+.des dl{
+	width:50%;
+	display:inline-block;
+}
+.des dl dd{
+	margin-left: 8%;
+	margin-bottom: 3%;
+}
+#why{
+	font-size: 3rem;
+    margin-bottom: 2rem;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+#dimg{
+	display:inline-block;
+	width:40%;
+	margin-left: 5%;
+	height:50%;
+}
+#imgage{
+    height: 33em;
+    width: 99%;
+}

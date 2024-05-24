@@ -1,0 +1,136 @@
+#home{
+	max-width:1500px; 
+	height: 400px;
+}
+.w3-imagee {
+    width: 1500px;
+    height: 100%;
+}
+.ex-name{
+	position: absolute;
+    top: 38%;
+    color: #fff;
+    background: rgb(0 0 0 / 60%);
+    font-weight: 500;
+    padding: 9px 0px 9px 0px;
+    height: 20%;
+    text-align: center;
+    width: 100%;
+}
+.exhibition-imgs{
+	width: 100%;
+}
+.grid{
+    display: grid;
+    width:100%;
+    margin: 0 auto;
+    grid-template-columns: repeat(4, 1fr);
+}
+.grid-item{
+    display: flex;
+    flex-direction: column;
+    padding: 22px 35px 0px;
+    text-align: center;
+    position: relative;
+}
+
+.img:hover{
+    opacity: 0.7;
+}
+.img-container:hover .button {
+  opacity: 1;
+}
+.vm:hover{
+    color:green;
+}
+
+
+
+/* Collection css */
+.container{
+    padding: 16px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(5 , 250px);
+    grid-gap: 10px 10px;
+}
+.item{
+    font-size: 50px;
+    color: #fff;
+    font-family: 'Righteous', cursive;
+    border-radius: 5px;
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
+}
+.item-1{
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+}
+.item-2{
+    grid-column: 3 / 5;
+    grid-row: 1 / 2;
+}
+.item-3{
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+    
+}
+.item-4{
+    grid-column: 3 / 5;
+    grid-row: 2 / 3;
+}
+.item-5{
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+.item-6{
+    grid-column: 2 / 3;
+    grid-row: 3 / 5;
+}
+.item-7{
+    grid-column: 3 / 5;
+    grid-row: 3 / 6;
+}
+.item-8{
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+}
+.item-9{
+    grid-column: 1 / 2;
+    grid-row: 5 / 6;
+}
+.item-10{
+    grid-column: 2 / 2;
+    grid-row: 5 / 6;
+}
+@media screen and (max-width: 768px){
+    .container{
+        display: block;
+    }
+    .item{
+        height: 200px;
+        margin-bottom: 10px;
+    }
+}
+.img-col{
+    height: 100%;
+    width: 100%;
+}
+
+.artist-img {
+
+    width: 75%;
+    padding-left: 0px;
+    height: 205px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-border-radius: 121em;
+    -moz-border-radius: 99em;
+    border-radius: 50%;
+border: 2px solid #eee;
+box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
+vertical-align: middle;
+}
+.artist-name{
+    text-align: center;
+}

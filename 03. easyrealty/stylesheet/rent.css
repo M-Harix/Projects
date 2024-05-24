@@ -1,0 +1,25 @@
+.black{
+	color:black;
+}
+.white{
+	color:black;
+}
+h2{
+	text-align:center;
+}
+.grid-container {
+	display: grid;
+    grid-template-columns: repeat(4, 1fr);
+	.grid-template-columns: auto auto auto;
+	width:90%;
+	margin:0 auto;
+	z-index:1;
+}
+.grid-item{
+	display:flex;
+}
+/*dropbtn*/
+.dropdown-content {
+	background-color: #ffffff;
+    border: 2px solid #fd0202;
+}

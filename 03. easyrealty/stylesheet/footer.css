@@ -1,0 +1,38 @@
+.footer{
+	height:100px;
+	position:absolute;
+	width:99%;
+}	
+hr{
+	border: 1px solid red;
+}
+h3{
+	margin-top:27px;
+	font-family: 'Manrope', sans-serif;
+	font-weight: inherit;
+}
+.rights{
+	float:left;
+}
+.ul{
+	display:inline-block;
+	margin:27px;
+	position:absolute;
+	right:20%;
+}
+li a{
+	font-family: 'Manrope', sans-serif;
+	font-size: larger;
+	text-decoration:none;
+}
+li {
+	display:inline-block;
+	margin:0px 20px 0px 20px;
+}
+ul li a:hover{
+	text-decoration:underline;
+}
+.rix{
+	float:right;
+	padding-right: 4px;
+}

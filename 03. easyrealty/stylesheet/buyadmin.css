@@ -1,0 +1,39 @@
+.black{
+	color:black;
+}
+.white{
+	color:black;
+}
+h2{
+	text-align:center;
+}
+.grid-container {
+	display: grid;
+    grid-template-columns: repeat(4, 1fr);
+	.grid-template-columns: auto auto auto;
+	width:90%;
+	margin:0 auto;
+}
+.grid-item{
+	display:flex;
+}
+/*dropbtn*/
+.dropdown-content {
+	background-color: #ffffff;
+    border: 2px solid #fd0202;
+}
+.danger{
+	background-color: #f44336;
+	border: none;
+	padding: 10px 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 0;
+	cursor: pointer;
+	border-radius: 12px;
+}
+.a{
+	color: white;
+}

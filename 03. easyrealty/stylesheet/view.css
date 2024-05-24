@@ -1,0 +1,38 @@
+body{
+	background-color:black;
+	color:white;
+}
+img{
+	height:621px;
+	width:100%;
+	margin:0 auto;
+}
+*{
+	margin:0;
+	padding:0;
+}
+.right{
+	width:60%;
+	float:right;
+	display: inline-block
+}
+label{
+	font-size:26px;
+	line-height:32px;
+	text-decoration:underline;
+}
+p{
+	color: darkgrey;
+}
+label::before {
+  content: "\2022";
+  color: white;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+.de{
+	display: inline-block;
+	margin-left: 27px;
+}

@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600|Open+Sans:600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+.sidebar{
+  position: fixed;
+  width: 240px;
+  height: 100%;
+  background: black;
+  transition: all .5s ease;
+}
+.sidebar header{
+  font-size: 28px;
+  color: white;
+  line-height: 70px;
+  text-align: center;
+  background: black;
+  user-select: none;
+  font-family: 'Montserrat', sans-serif;
+}
+.sidebar a{
+  display: block;
+  height: 65px;
+  width: 100%;
+  color: white;
+  line-height: 65px;
+  padding-left: 30px;
+  box-sizing: border-box;
+  border-bottom: 1px solid black;
+  border-top: 1px solid rgba(255,255,255,.1);
+  border-left: 5px solid transparent;
+  font-family: 'Open Sans', sans-serif;
+  transition: all .5s ease;
+}
+a.active, .side:hover{
+  border-left: 5px solid #b93632;
+  color: #b93632;
+}
+.sidebar a i{
+  font-size: 23px;
+  margin-right: 16px;
+}
+.sidebar a span{
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+#check{
+  display: none;
+}
+label #btn,label #cancel{
+  position: absolute;
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid #262626;
+  margin: 15px 30px;
+  font-size: 29px;
+  background: #262626;
+  height: 45px;
+  width: 45px;
+  text-align: center;
+  line-height: 45px;
+  transition: all .5s ease;
+}
+label #cancel{
+  opacity: 0;
+  visibility: hidden;
+}
+#check:checked ~ .sidebar{
+  left: 0;
+}
+#check:checked ~ label #btn{
+  margin-left: 245px;
+  opacity: 0;
+  visibility: hidden;
+}
+#check:checked ~ label #cancel{
+  margin-left: 245px;
+  opacity: 1;
+  visibility: visible;
+}
+@media(max-width : 860px){
+  .sidebar{
+    height: auto;
+    width: auto;
+    left: 0;
+    margin: 100px 0;
+  }
+  header,#btn,#cancel{
+    display: none;
+  }
+  span{
+    position: absolute;
+    margin-left: 23px;
+    opacity: 0;
+    visibility: hidden;
+  }
+  .sidebar a{
+    height: 60px;
+  }
+  .sidebar a i{
+    margin-left: -10px;
+  }
+  a:hover {
+    width: 200px;
+    background: inherit;
+  }
+  .sidebar a:hover span{
+    opacity: 1;
+    visibility: visible;
+  }
+}
+@media (max-width: 1199px)
+.input-group {
+    width: 100%;
+}
+
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 78%;
+  height: 50%;
+  margin-left: 20%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  text-align: center;
+}
+
+    .photo-preview{
+    width: 100% !important;
+    max-width: 125px !important;
+    height: 100% !important;
+    max-height: 125px!important;
+    border-radius: 50% !important;
+  }
+
+  .middle-profilepic {
+    transition: .3s ease;
+    opacity: 0;
+    text-align: center;
+  }
+  
+  .container-profilepic:hover .photo-preview {
+    opacity: 0.3;
+  }
+  
+  .container-profilepic:hover .middle-profilepic {
+    opacity: 1;
+  }
+  
+  .text-profilepic {
+    color: green;
+    font-size: 16px;
+  }
+
+
+.profilepic{
+  margin-top: 2%;
+  border-radius: 50%;
+  width:15%
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.formlink {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+form{
+  width: 85%;
+  margin-left: 7%;
+}
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700;900&display=swap'); 
+    body {
+        color: #000;
+        background: #d0021b;
+        font-family: "Roboto", sans-serif;
+    }
+    .col-md-8 col-md-offset-2{
+       background: white;
+      margin-left: 16.66666667%;
+      margin-top: 5%;
+      margin-bottom: 5%;
+    }
+    .contact-form {
+        padding: 50px;
+        margin: 30px auto;
+        border-radius: 5px;
+        background: white;
+    }
+    
+    .contact-form .form-group {
+      padding-top: 5%;
+        margin-bottom: 20px;
+    }
+    .contact-form label {
+        opacity: 0.9;
+        font-size: 16px;
+        color: #ae0303;
+    }
+    .contact-form textarea {
+        resize: vertical;
+    }
+    label{
+      float: left;
+    }
+    .row{
+      margin-top: 5%;
+    }
+    .btn{
+      background: black;
+      color: white;
+      
+    }

@@ -1,0 +1,72 @@
+.header{
+	width:100%;
+	height:77px;
+	color:red;
+}
+a{
+	text-decoration:none;
+}
+h1{
+	font-family: 'Dancing Script', cursive;
+	color:red;
+	margin:0;
+}
+h4{
+	font-family: 'Spline Sans Mono', monospace;
+	font-size:x-small;
+	color:white;
+}
+.logo{
+	float:left;
+}
+ul{
+	display:inline-block;
+	float:right;
+}
+li a{
+	color:white;
+	font-family: 'Manrope', sans-serif;
+	font-size: larger;
+}
+li {
+	color:white;
+	margin:0px 20px 0px 20px;
+	font-family: 'Manrope', sans-serif;
+	font-size: larger;
+}
+li {
+	display:inline-block;
+}
+ul li a:hover{
+	text-decoration:underline;
+}
+.authority{
+	color:red;
+}
+/*dropbtn*/
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  width:160px;
+  z-index: 1;
+}
+.dropdown-content a {
+	text-decoration: none;
+	display: block;
+	overflow: hidden;
+	text-align:center;
+}
+.dropdown-content a:hover {
+	background-color: rgb(211, 213, 212, 0.7);
+}
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+.dropdown:hover .dropbtn {
+	text-decoration:underline;
+}

@@ -1,0 +1,155 @@
+
+input {
+  caret-color: red;
+}
+
+body {
+  margin: 0;
+  width: 100vw;
+  background: #ecf0f3;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  place-items: center;
+  font-family: poppins;
+}
+
+.container {
+    width: 80%;
+    height: 57em;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 20px;
+    padding: 40px;
+    margin-bottom: 2%;
+    box-sizing: border-box;
+  background: #ecf0f3;
+  box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+}
+
+
+
+
+
+.inputs {
+    display: inline-block;
+    width: 85%;
+    margin-top: 16px;
+}
+
+label, input, textarea, .button {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+label {
+  margin-bottom: 4px;
+}
+
+label:nth-of-type(2) {
+  margin-top: 12px;
+}
+
+input::placeholder {
+  color: gray;
+}
+
+input {
+  background: #ecf0f3;
+  padding: 10px;
+  padding-left: 20px;
+  height: 50px;
+  font-size: 14px;
+  border-radius: 50px;
+  width: 100%;
+  margin-right: 55px;
+  box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+}
+
+.button {
+  width: 20%;
+  color: white;
+  margin: auto;
+  background: #1DA1F2;
+  height: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 900;
+  box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+  transition: 0.5s;
+}
+
+h1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.button:hover {
+  box-shadow: none;
+}
+
+
+
+
+form span{
+    text-align: initial;
+    width: 100%;
+    display: block;
+    float: left;
+    margin-left: 10px;
+    margin-top: 8%;
+
+  }
+.full{
+  width: 92%;
+  
+}
+.des{
+  margin-bottom: 5%;
+}
+.label{
+    width: 50%;
+    float: left;
+}
+.span{
+    margin-top: 5%;
+    text-align: initial;
+    width: 100%;
+}
+
+.img-circle {
+
+width: 20%;
+height: 20%;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+-webkit-border-radius: 99em;
+-moz-border-radius: 99em;
+border-radius: 99em;
+border: 2px solid #eee;
+box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
+vertical-align: middle;
+}
+
+.img-edit a{
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+textarea{
+    background: #ecf0f3;
+    padding: 10px;
+    padding-left: 20px;
+    /* height: 50px; */
+    font-size: 14px;
+    border-radius: 20px;
+    /* width: 100%; */
+    margin-right: 55px;
+    box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+}

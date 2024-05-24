@@ -1,0 +1,41 @@
+.building{
+	width:100%;
+}
+.background-1{
+	background-color: rgba(0,0,0,.34);
+	
+}
+.contant{
+	width:100%;
+	border: none;
+    border-bottom: 2px solid #d7d6d6;
+    padding: 0 0 20px;
+    color: #101010;
+    font-size: 26px;
+    line-height: 32px;
+	margin-bottom:10%;
+}
+.contant:focus{
+	outline: none;
+	border-bottom: 2px solid red;
+}
+.form-title{
+	font-family: 'SFP', sans-serif;
+  font-size: 4vh;
+  line-height: 110px;
+  color: #101010;
+  letter-spacing: -0.05em;
+}
+.submit{
+	height: 64px;
+	font-family: 'SFP', sans-serif;
+    font-size: inherit;
+	width: 37%;
+	color:white;
+	background-color: black;
+	transition:0.2s;
+}
+.submit:hover{
+	background-color: rgb(211, 213, 212, 1);
+	color:Black;
+}

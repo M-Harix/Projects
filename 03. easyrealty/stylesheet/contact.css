@@ -1,0 +1,65 @@
+hr{
+	border: 1px solid red;
+}
+.black{
+	color:black;
+}
+.white{
+	color:black;
+}
+.building{
+	width:100%;
+}
+.grid-container {
+  margin-top:7%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.grid-item{
+	display:flex;
+}
+.item2{
+	margin-left:21%;
+	margin-bottom:7%;
+}
+.contant{
+	width:100%;
+	border: none;
+    border-bottom: 2px solid #d7d6d6;
+    padding: 0 0 20px;
+    color: #101010;
+    font-size: 26px;
+    line-height: 32px;
+	margin-bottom:10%;
+}
+.contant:focus{
+	outline: none;
+	border-bottom: 2px solid red;
+}
+.form-title{
+	font-family: 'SFP', sans-serif;
+	font-weight: 400;
+    font-size: 110px;
+    line-height: 110px;
+    color: #101010;
+    letter-spacing: -0.05em;
+}
+.btn{
+	height: 64px;
+	font-family: 'SFP', sans-serif;
+    font-size: inherit;
+	width: 37%;
+	color:white;
+	background-color: black;
+	transition:0.2s;
+}
+.btn:hover{
+	background-color: rgb(211, 213, 212, 1);
+	color:Black;
+}
+/*dropbtn*/
+.dropdown-content {
+	background-color: #ffffff;
+    border: 2px solid #fd0202;
+}
